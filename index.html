@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lux smell</title>
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <!-- fontawesome icons package -->
+    <script
+      src="https://kit.fontawesome.com/9efa984a6f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- css bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="logo">
+        <img
+          src="./images/logo.jpeg"
+          alt="Logo"
+          onclick="window.location.href='index.html'"
+        />
+      </div>
+      <div class="bars" onclick="toggleMenu()">
+        &#9776;
+        <!-- Bars icon -->
+      </div>
+      <div class="menu">
+        <div class="header_links">
+          <ul>
+            <li onclick="window.location.href='index.html'">Home</li>
+            <li onclick="window.location.href='tours.html'">About</li>
+            <li onclick="window.location.href='reservation.html'">Products</li>
+            <li onclick="window.location.href='reservation.html'">
+              Contact us
+            </li>
+          </ul>
+        </div>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- hero -->
+    <section class="hero">
+      <h1 class="hero_title">
+        <button onclick="window.location.href='tours.html'">Shop Now</button>
+      </h1>
+    </section>
+
+    <!-- categories -->
+    <section class="categories">
+      <div class="categories_container">
+        <div class="categorie_item">
+          <img src="./images/categories3.jpeg" alt="" />
+          <div class="item_cotent">New Arrivals</div>
+        </div>
+        <div class="categorie_item">
+          <img src="./images/categories1.jpeg" alt="" />
+          <div class="item_cotent">Women Fragrance</div>
+        </div>
+        <div class="categorie_item">
+          <img src="./images/categories2.jpeg" alt="" />
+          <div class="item_cotent">Men Fragrance</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About us -->
+    <section class="about">
+      <div class="about_container">
+        <img src="./images/categories3.jpeg" alt="" />
+        <div class="about_content">
+          <h1>
+            About Our <br />
+            New Fragrance
+          </h1>
+          <p>
+            Libre Eau de Parfum is a bold and foral perfume for women. A
+            statement feminine fragrance for those who live by their own rules.
+            Lavender essence from France combines with the sensuality of
+            Moroccan orange blossom and daring notes of musk accord and vanilla
+            for a unique long-lasting scent.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Beginning -->
+    <section class="OurBeginning">
+      <div class="OurBeginning_container">
+        <h1>Our Beginning</h1>
+        <p>
+          Libre Eau de Parfum is a bold and foral perfume for women. A statement
+          feminine fragrance for those who live by their own rules. Lavender
+          essence from France combines with the sensuality of Moroccan orange
+          blossom and daring notes of musk accord and vanilla for a unique
+          long-lasting scent.
+        </p>
+      </div>
+    </section>
+
+    <!-- our customers -->
+    <section class="ourcustomers">
+      <div class="ourcustomers_container">
+        <h1>What our customers are saying</h1>
+        <div class="container mt-5">
+          <div
+            id="multiItemCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <!-- First slide -->
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="./images/customer2.jpeg"
+                        class="card-img-top"
+                        alt="Customer 2"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          "A great site to buy gifts for family! They have a
+                          great selection and it's so easy to place an order.
+                          The delivery time is exceptional!"
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="./images/customer1.jpeg"
+                        class="card-img-top"
+                        alt="Customer 1"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          "Products are high quality and come in great
+                          packaging. Scents match to expectations and would buy
+                          again. Very satisfied with my order.”
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="./images/customer3.jpeg"
+                        class="card-img-top"
+                        alt="Customer 3"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          "Highly impressed! The fragrance is divine, and the
+                          whole ordering process was super easy. Will definitely
+                          buy again!"
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Second slide -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="./images/customer4.jpeg"
+                        class="card-img-top"
+                        alt="Customer 4"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          "Incredible quality! The perfume smells amazing, and
+                          the elegant packaging made it feel so special. Fast
+                          delivery too!"
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="./images/customer2.jpeg"
+                        class="card-img-top"
+                        alt="Customer 2"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          "A great site to buy gifts for family! They have a
+                          great selection and it's so easy to place an order.
+                          The delivery time is exceptional!"
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="./images/customer1.jpeg"
+                        class="card-img-top"
+                        alt="Customer 1"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          "Products are high quality and come in great
+                          packaging. Scents match to expectations and would buy
+                          again. Very satisfied with my order.”
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#multiItemCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#multiItemCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="footer_container">
+        <img src="./images/logo.jpeg" alt="" />
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Products</li>
+          <li>Contact</li>
+        </ul>
+        <ul>
+          <li>FAQ</li>
+          <li>Company</li>
+          <li>Terms & Conditions</li>
+        </ul>
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./JS/app.js"></script>
+  </body>
+</html>

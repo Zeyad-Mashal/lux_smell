@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation</title>
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <script
+      src="https://kit.fontawesome.com/9efa984a6f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="logo">
+        <img
+          src="./images/logo.png"
+          alt="Logo"
+          onclick="window.location.href='index.html'"
+        />
+      </div>
+      <div class="bars" onclick="toggleMenu()">
+        &#9776;
+        <!-- Bars icon -->
+      </div>
+      <div class="menu">
+        <div class="header_links">
+          <ul>
+            <li onclick="window.location.href='index.html'">Home</li>
+            <li onclick="window.location.href='tours.html'">Our Tours</li>
+            <li onclick="window.location.href='reservation.html'">Services</li>
+          </ul>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search..." />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </header>
+    <!-- booking -->
+    <section class="res">
+      <h2>Book Now!</h2>
+      <div class="res_container">
+        <div class="res_form">
+          <div class="form_top">
+            <input type="text" placeholder="Full Name (as on ID/passport)" />
+            <input type="text" placeholder="phone number" />
+            <input type="text" placeholder="email" />
+            <input type="text" placeholder="Nationality" />
+            <input type="date" />
+            <select>
+              <option value="Destination">Destination</option>
+              <option value="Travel Dates (departure and return)">
+                Travel Dates (departure and return)
+              </option>
+              <option value="Number of Travelers">Number of Travelers</option>
+              <option value="Adults">Adults</option>
+              <option value="Children (with age)">Children (with age)</option>
+              <option value="Infants (with age)">Infants (with age)</option>
+            </select>
+            <select>
+              <option value="Type of Trip ">Type of Trip</option>
+              <option value="leisure">leisure</option>
+              <option value="business">business</option>
+              <option value="adventure">adventure</option>
+            </select>
+            <select>
+              <option value="Accommodation Preferences">
+                Accommodation Preferences
+              </option>
+              <option value="hotel type">hotel type</option>
+              <option value="star rating">star rating</option>
+              <option value="room type">room type</option>
+            </select>
+            <select>
+              <option value="Accommodation Preferences">
+                Accommodation Preferences
+              </option>
+              <option value="hotel type">hotel type</option>
+              <option value="star rating">star rating</option>
+              <option value="room type">room type</option>
+            </select>
+            <select>
+              <option value="Accommodation Preferences">
+                Transportation Preferences
+              </option>
+              <option value="flight class">flight class</option>
+              <option value="train">train</option>
+              <option value="car rental">car rental</option>
+            </select>
+            <select>
+              <option value="Accommodation Preferences">
+                Meal Preferences
+              </option>
+              <option value="vegetarian">vegetarian</option>
+              <option value="non-vegetarian">non-vegetarian</option>
+              <option value="vegan">vegan</option>
+            </select>
+            <select>
+              <option value="Accommodation Preferences">
+                Special Requests
+              </option>
+              <option value="wheelchair access">wheelchair access</option>
+              <option value="extra luggage">extra luggage</option>
+            </select>
+            <select>
+              <option value="Payment Details">Payment Details</option>
+              <option value="credit card">credit card</option>
+              <option value="PayPal">PayPal</option>
+              <option value="bank transfer">bank transfer</option>
+            </select>
+          </div>
+          <div class="form_bottom">
+            <h3>Terms and Conditions</h3>
+            <p>
+              Checkbox to agree to the terms and conditions, cancellation
+              policy, and refund policy.
+            </p>
+            <div class="captcha">
+              <h4>Captcha/Verification</h4>
+              <img src="./images/Captcha.png" alt="" />
+              <input type="text" />
+            </div>
+          </div>
+
+          <div class="submit_btn">
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <img
+        src="./images/logo.png"
+        alt=""
+        onclick="window.location.href='index.html'"
+      />
+
+      <div class="footer_content">
+        <div class="footer_conent_top">
+          <i class="fa-solid fa-plane"></i>
+          <h1>
+            “Your Next Adventure Awaits – Join Us Today! Unleash your wanderlust
+            with exclusive deals, expert planning, and unforgettable
+            experiences. Explore the world, one destination at a time!”
+          </h1>
+        </div>
+        <div class="footer_input">
+          <p>Send To us a message here !</p>
+          <div class="footer_input_data">
+            <input type="text" />
+            <button>Send</button>
+          </div>
+        </div>
+        <div class="icons">
+          <h1>Our Social media</h1>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 All rights reserved || Created By Pansieh Moussa</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./JS/app.js"></script>
+  </body>
+</html>
