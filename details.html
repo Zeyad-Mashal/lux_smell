@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tour Details</title>
+    <title>Details</title>
     <link rel="stylesheet" href="./CSS/main.css" />
     <script
       src="https://kit.fontawesome.com/9efa984a6f.js"
@@ -16,84 +16,72 @@
   <body>
         <!-- header -->
         <header>
-            <div class="logo">
-              <img src="./images/logo.png" alt="Logo" onclick="window.location.href='index.html'"/>
+          <div class="logo">
+            <img
+              src="./images/logo.jpeg"
+              alt="Logo"
+              onclick="window.location.href='index.html'"
+            />
+          </div>
+          <div class="bars" onclick="toggleMenu()">
+            &#9776;
+            <!-- Bars icon -->
+          </div>
+          <div class="menu">
+            <div class="header_links">
+              <ul>
+                <li onclick="window.location.href='#'">Home</li>
+                <li onclick="window.location.href='#'">About</li>
+                <li onclick="window.location.href='#'">Products</li>
+                <li onclick="window.location.href='#'">Contact us</li>
+              </ul>
             </div>
-            <div class="bars" onclick="toggleMenu()">
-              &#9776; <!-- Bars icon -->
+            <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
             </div>
-            <div class="menu">
-              <div class="header_links">
-                <ul>
-                  <li onclick="window.location.href='index.html'">Home</li>
-                  <li onclick="window.location.href='tours.html'">Our Tours</li>
-                  <li onclick="window.location.href='reservation.html'">Services</li>
-
-              </div>
-              <div class="search">
-                <input type="text" placeholder="Search..." />
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </div>
-            </div>
-          </header>
+          </div>
+        </header>
           <section class="details">
             <div class="details_container">
                 <div class="details_item">
                     <img src="./images/details.jpeg" alt="">
                     <div class="details_content">
-                        <h2>Budget-Friendly Adventure Safari</h2>
-                        <span>	•	Season: Green Season (April to May) 
-                        <p><br />
-                          <br />•	Estimated Budget: $1,500 - $2,000 per person
-                          <br />•	Activities:<br />
-                          <br />•	Game Drives: Explore the Serengeti National Park and Ngorongoro Crater to witness the diverse wildlife, including the Big Five.
-                          <br />•	Nature Walks: Guided walks in the Ngorongoro Conservation Area to discover the flora and smaller fauna.
-                          <br />•	Accommodation:
-                          <br />•	Hotel: Reef and Beach Resort
-                          <br />•	Location: Jambiani, Zanzibar
+                        <h2>(BLACK OPIUM EAU DE PARFUM OVER RED)</h2>
+                        <p>
+                          what it is
+Black Opium Eau de Parfum Over Red—the iconic sensual coffee floral accord from Yves Saint Laurent turns red with a hypnotic and radiant ingredient, a juicy cherry accord. This sought-after sweet perfume scent takes the signature of Black Opium into a new fruity universe. Black Opium Eau de Parfum Over Red is the dreamiest warm and sweet cherry perfume that truly captures the senses and lasts all night long.
+
+About the fragrance
+The iconic Black Opium bottle takes on a new sexy shade. Covered in a dark red luxurious lacquered tone, the perfume bottle matches the luscious cherry note of Black Opium Eau de Parfum Over Red
                          </p>
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <button class="btn btn-primary" onclick="window.location.href='reservation.html'">Book Now</button>
+                        
+                        <button onclick="window.location.href='contact.html'">Buy Now</button>
                 </div>
                 </div>
             </div>
           </section>
           <!-- footer -->
-          <footer>
-            <img src="./images/logo.png" alt="" onclick="window.location.href='index.html'">
-    
-            <div class="footer_content">
-              <div class="footer_conent_top">
-                <i class="fa-solid fa-plane"></i>
-                <h1>“Your Next Adventure Awaits – Join Us Today!
-                  Unleash your wanderlust with exclusive deals, expert planning, and unforgettable experiences. Explore the world, one destination at a time!”</h1>
-              </div>
-              <div class="footer_input">
-                <p>Send To us a message here !</p>
-                <div class="footer_input_data">
-                  <input type="text">
-                <button>Send</button>
-                </div>
-              </div>
-              <div class="icons">
-                <h1>Our Social media</h1>
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-x-twitter"></i>
-              </div>
-              <div class="copyright">
-                <p>&copy; 2025 All rights reserved || Created By Pansieh Moussa</p>
-              </div>
-            </div>
-    
-           </footer>
+    <footer>
+      <div class="footer_container">
+        <img src="./images/logo.jpeg" alt="" />
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Products</li>
+          <li>Contact</li>
+        </ul>
+        <ul>
+          <li>FAQ</li>
+          <li>Company</li>
+          <li>Terms & Conditions</li>
+        </ul>
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </footer>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
           <script src="./JS/app.js"></script>
   </body>
