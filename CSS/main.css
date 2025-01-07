@@ -45,6 +45,7 @@ header img {
   display: none;
   font-size: 24px;
   cursor: pointer;
+  color: #fff;
 }
 
 /* Menu Styles for Small Screens */
@@ -81,14 +82,14 @@ header img {
   }
   .menu {
     width: 100%;
-    background: #eee;
-    top: 90px;
+    background: #022914;
+    top: 60px;
     right: 0;
     justify-content: center;
     align-items: center;
   }
   header {
-    background-color: #eee;
+    background-color: #022914;
   }
 }
 
@@ -126,6 +127,9 @@ header img {
   .hero {
     height: 500px;
   }
+  .hero_title button {
+    left: 20%;
+  }
 }
 /* categories */
 .categories {
@@ -153,12 +157,21 @@ header img {
   height: 300px;
   opacity: 0.5;
 }
-.item_cotent {
+.item_cotent,
+.item_cotent_1 {
   position: absolute;
   top: 50px;
   right: 20px;
   font-weight: bold;
   font-size: 2rem;
+}
+.item_cotent_1 {
+  right: 55px;
+}
+@media screen and (max-width: 789px) {
+  .categories_container {
+    flex-direction: column;
+  }
 }
 /* about */
 .about {
@@ -196,8 +209,23 @@ header img {
 .about_content p {
   width: 600px;
   text-align: center;
+  color: rgb(252, 213, 113);
 }
-
+@media screen and (max-width: 789px) {
+  .about_container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .about_container img {
+    width: 100%;
+  }
+  .about_content h1 {
+    font-size: 1.5rem;
+  }
+  .about_content p {
+    width: 100%;
+  }
+}
 /* OurBeginning */
 .OurBeginning {
   width: 100%;
@@ -223,6 +251,14 @@ header img {
 .OurBeginning_container p {
   color: rgb(252, 213, 113);
   text-align: center;
+}
+@media screen and (max-width: 789px) {
+  .OurBeginning_container h1 {
+    font-size: 1.5rem;
+  }
+  .OurBeginning_container p {
+    width: 100%;
+  }
 }
 
 /* our customers */
@@ -262,6 +298,23 @@ header img {
   font-weight: bold;
   font-size: 18px;
   color: #000;
+  background-color: #eee;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+.card:hover .card-body .card-text {
+  background-color: transparent;
+}
+.card:hover .card img {
+  opacity: 1;
+}
+@media screen and (max-width: 789px) {
+  .ourcustomers_container h1 {
+    font-size: 1.5rem;
+  }
+  .card {
+    margin: 1rem 0;
+  }
 }
 /* footer */
 footer {
@@ -297,6 +350,16 @@ footer {
 }
 .footer_container .icons i {
   font-size: 30px;
+}
+@media screen and (max-width: 789px) {
+  .footer_container {
+    flex-direction: column;
+  }
+  .footer_container ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
 }
 /* Home Page End */
 
